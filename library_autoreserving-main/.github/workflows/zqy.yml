@@ -3,7 +3,7 @@ name: gmx Timed Library Seat Booking Script Execution
 
 on:
   schedule:
-    - cron: "30 21 * * *"
+    - cron: "50 21 * * *"
   workflow_dispatch:  # 手动触发
 
 jobs:
@@ -30,4 +30,4 @@ jobs:
 
       - name: Run Library Booking Script
         run: |
-          python gmx.py
+          python zqy.py
