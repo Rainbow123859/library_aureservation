@@ -13,8 +13,8 @@ CONFIG = {
         "ASP.NET_SessionId": "hqainbkgmkgdasn2nqwy0ft4",#更换
         "cookie_unit_name": "%e6%b9%96%e5%8d%97%e5%86%9c%e4%b8%9a%e5%a4%a7%e5%ad%a6%e5%9b%be%e4%b9%a6%e9%a6%86",
         "cookie_come_app": "D935AE54952F16C1",
-        "cookie_come_timestamp": "1746708788",
-        "cookie_come_sno": "DAD084FF07CB0C55944C5E1A3302D3A4B5E3F0A418EF1303",#下面这两个是身份信息
+        "cookie_come_timestamp": "1746710322",
+        "cookie_come_sno": "DAD084FF07CB0C55910F7CE69F2E14BABEDD11C20FFA8F96",#下面这两个是身份信息
         "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
     },
     "seats": [
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     booker = LibraryBooker(CONFIG)
     logger.info("程序已启动，等待预约时间窗口...")
 
-    start_time = dt_time(21, 59, 0)#这里得用UTC时间设置，我设置的是5:59开始发送请求。
+    start_time = dt_time(0, 59, 0)#这里得用UTC时间设置，我设置的是5:59开始发送请求。
     end_time = dt_time(22, 4, 0)
 
     while True:
