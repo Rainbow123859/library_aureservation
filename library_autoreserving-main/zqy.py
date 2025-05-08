@@ -10,20 +10,15 @@ from requests.adapters import HTTPAdapter
 # ============== 配置区域（根据你的抓包数据修改）===============#随便用什么抓包软件就可以抓到cookies，seats改也很容易。把seats设成自己想要的就可以直接用了
 CONFIG = {
     "cookies": {
-        "ASP.NET_SessionId": "3bnerus44v3v0f5aazad1a0y",#没记错的话只要更新这一条就好
-        "cookie_unit_name": "%e6%b9%96%e5%8d%97%e5%86%9c%e4%b8%9a%e5%a4%a7%e5%ad%a6%e5%9b%be%e4%b9%a6%e9%a6%86",#不用更换
-        "cookie_come_app": "D935AE54952F16C1",#不要更换
-        "cookie_come_timestamp": "1744270472",#这个也可以不更新
-        "cookie_come_sno": "xxxxx",#下面这两个是身份信息
-        "dt_cookie_user_name_remember": "xxxxx"
+        "ASP.NET_SessionId": "hqainbkgmkgdasn2nqwy0ft4",
+        "cookie_unit_name": "%e6%b9%96%e5%8d%97%e5%86%9c%e4%b8%9a%e5%a4%a7%e5%ad%a6%e5%9b%be%e4%b9%a6%e9%a6%86",
+        "cookie_come_app": "D935AE54952F16C1",
+        "cookie_come_timestamp": "1744270472",
+        "cookie_come_sno": "DAD084FF07CB0C55634B96262E144DF111036C1F850A7D03",#下面这两个是身份信息
+        "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
     },
     "seats": [
-        #求求不要约这个几个座位，这是我帮自己和朋友约的常用座位嘿嘿
-        {"seatno": "HNND20478", "seatname": "478", "datetime": "510,1320"},
-        {"seatno": "HNND20406", "seatname": "406", "datetime": "570,1320"},
-        {"seatno": "HNND20401", "seatname": "401", "datetime": "570,1320"},
-        {"seatno": "HNND20479", "seatname": "479", "datetime": "510,1320"},
-        {"seatno": "HNND20476", "seatname": "477", "datetime": "510,1320"},
+        {"seatno": "HNND04105", "seatname": "105", "datetime": "510,540"},
     ],
     "request_timeout": 10,
     "max_attempts": 10
