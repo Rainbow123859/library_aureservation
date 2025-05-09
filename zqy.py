@@ -96,7 +96,7 @@ if __name__ == "__main__":
     booker = LibraryBooker(CONFIG)
     logger.info("程序已启动，等待预约时间窗口...")
 
-    start_time = dt_time(21, 59, 0)#这里得用UTC时间设置，我设置的是5:59开始发送请求。
+    start_time = dt_time(0, 59, 0)#这里得用UTC时间设置，我设置的是5:59开始发送请求。
     end_time = dt_time(22, 4, 0)
 
     while True:
