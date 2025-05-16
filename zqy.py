@@ -18,7 +18,7 @@ CONFIG = {
         "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
     },
     "seats": [
-        {"seatno": "HNND04250", "seatname": "250", "datetime": "540,1320"},
+        {"seatno": "HNND04250", "seatname": "250", "datetime": "510,1320"},
     ],
     "request_timeout": 10,
     "max_attempts": 10
