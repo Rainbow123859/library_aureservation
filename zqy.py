@@ -15,7 +15,7 @@ CONFIG = {
         "cookie_unit_name": "%e6%b9%96%e5%8d%97%e5%86%9c%e4%b8%9a%e5%a4%a7%e5%ad%a6%e5%9b%be%e4%b9%a6%e9%a6%86",
         "cookie_come_app": "D935AE54952F16C1",
         "cookie_come_timestamp": "1756787254",#更换
-        "cookie_come_sno": "DAD084FF07CB0C5509FA468E2B7B8E16B04BF98569B204CF",#下面这两个是身份信息#更换
+        "cookie_come_sno": "DAD084FF07CB0C5509FA468E2B7B8E16B04BF98569B204CF",#下面这两个是身份信息
         "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
     },
     "seats": [
