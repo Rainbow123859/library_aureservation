@@ -10,11 +10,11 @@ from requests.adapters import HTTPAdapter
 # ============== 配置区域（根据你的抓包数据修改）===============
 CONFIG = {
     "cookies": {
-        "ASP.NET_SessionId": "nrvypbymhr3qnwqv0s1vogu4",
+        "ASP.NET_SessionId": "ch1ma4x1nbbdzt10w5ys2z4h",
         "cookie_unit_name": "%e6%b9%96%e5%8d%97%e5%86%9c%e4%b8%9a%e5%a4%a7%e5%ad%a6%e5%9b%be%e4%b9%a6%e9%a6%86",
         "cookie_come_app": "D935AE54952F16C1",
-        "cookie_come_timestamp": "1756787254",
-        "cookie_come_sno": "DAD084FF07CB0C5509FA468E2B7B8E16B04BF98569B204CF",
+        "cookie_come_timestamp": "1757570828",
+        "cookie_come_sno": "DAD084FF07CB0C559A00F03D9E2C6F0462AEF60BB6CA221A",
         "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
     },
     "seats": [
@@ -23,7 +23,7 @@ CONFIG = {
       #  {"seatno": "HNND20480", "seatname": "480", "datetime": "510,1320"},
        # {"seatno": "HNND20482", "seatname": "482", "datetime": "510,1320"},
         #{"seatno": "HNND20481", "seatname": "481", "datetime": "510,1320"},
-        {"seatno": "HNND04250", "seatname": "250", "datetime": "510,1320"},
+        {"seatno": "HNND04252", "seatname": "252", "datetime": "510,1320"},
     ],
     "request_timeout": 5,
     "max_attempts": 10  # 每个座位的最大尝试次数
