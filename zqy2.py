@@ -15,7 +15,7 @@ CONFIG = {
         "cookie_come_app": "D935AE54952F16C1",
         "cookie_come_timestamp": "1763036561",
         "cookie_come_sno": "DAD084FF07CB0C550A5B0395536E594629DC32A157CF58BF",
-        "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA8877C790E1EFC9D7A7"
+        "dt_cookie_user_name_remember": "6C72C7227D4D5EEF6197485F32D9DA88BFF0A4BE903E7715"
     },
     "seats": [
         #{"seatno": "HNND10137", "seatname": "137", "datetime": "510,1320"},
@@ -23,7 +23,7 @@ CONFIG = {
       #  {"seatno": "HNND20480", "seatname": "480", "datetime": "510,1320"},
        # {"seatno": "HNND20482", "seatname": "482", "datetime": "510,1320"},
         #{"seatno": "HNND04250", "seatname": "250", "datetime": "510,1320"},
-        {"seatno": "HNND04252", "seatname": "252", "datetime": "450,1320"},
+        {"seatno": "HNND04284", "seatname": "284", "datetime": "630,1320"},
     ],
     "request_timeout": 5,
     "max_attempts": 10  # 每个座位的最大尝试次数
